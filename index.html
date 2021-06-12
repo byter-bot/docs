@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Byter docs</title>
+    <meta name="description" content="A simple bot made for the Créu Cat community!">
+    <meta name="author" content="@dzshn">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+    <link href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"
+          rel="stylesheet" type="text/css">
+
+    <style>
+        :root {
+            --cover-background-image:
+                radial-gradient(ellipse at center 115%, #30305030, transparent);
+        }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+    <script>
+        window.$docsify = {
+            name: 'Byter docs',
+            homepage: 'index.md',
+            coverpage: true,
+            auto2top: true,
+            plugins: [(h,v) => {h.doneEach(() => twemoji.parse(document))}]
+        }
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/TaQini/docsify-twemoji@master/twemoji.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+</body>
+</html>
