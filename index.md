@@ -11,6 +11,15 @@ help command. <br> **Note:** `[argument]` and `<argument>` are used for required
 respectively
 
 ## Fun
+### 2048
+Starts a 2048 minigame
+
+**Syntax:** `b!2048 <size>`
+
+| Command  | Aliases | Arguments |
+| -------- | ------- | --------- |
+| `b!2048` | None    | `<size>`: board size between 2 and 8 |
+
 ### cat
 Fetches a random cat image
 
