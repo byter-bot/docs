@@ -29,6 +29,34 @@ Fetches a random cat image
 | ------- | ------- | --------- |
 | `b!cat` | None    | None      |
 
+## Help
+### commands
+Lists all available commands
+
+**Syntax:** `b!commands`
+
+| Command      | Aliases | Arguments |
+| ------------ | ------- | --------- |
+| `b!commands` | None    | None      |
+
+### help
+Displays help for a command/category or shows all commands
+
+**Syntax:** `b!commands`
+
+| Command  | Aliases | Arguments |
+| -------- | ------- | --------- |
+| `b!help` | None    | `<command>`: command or category to show help for |
+
+### prefix
+Shows the bot's prefix
+
+**Syntax:** `b!prefix`
+
+| Command    | Aliases | Arguments |
+| ---------- | ------- | --------- |
+| `b!prefix` | None    | None      |
+
 ## Info
 ### ping
 Pong!
